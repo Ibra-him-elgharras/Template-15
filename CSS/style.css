@@ -79,7 +79,8 @@ html,body{
    transform: translateY(-50%);
 }
 
-.wrapper form .pass-link{
+.wrapper form .pass-link,
+.wrapper form .signup-link{
     color: #4158d0;
     margin: 5px 0 0 10px;
     
@@ -91,7 +92,7 @@ html,body{
     font-size: 18px;
     font-weight: 500;
     border: none;
-    padding-left: none;
+    padding-left: 0px;
     cursor: pointer;
 }
 
@@ -99,4 +100,23 @@ html,body{
     transform: scale(0.95);
 }
 
+
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    color: #262626;
+}
+
+
+.wrapper form .pass-link a,
+.wrapper form .signup-link a{
+    color: #4158d0;
+    text-decoration-line: none;
+}
+
+
+.wrapper form .pass-link a:hover,
+.wrapper form .signup-link a:hover{
+    text-decoration-line: underline;
+}
 
