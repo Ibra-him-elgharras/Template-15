@@ -77,7 +77,26 @@ html,body{
    color: #4158d0;
    background: #fff;
    transform: translateY(-50%);
+}
 
+.wrapper form .pass-link{
+    color: #4158d0;
+    margin: 5px 0 0 10px;
+    
+}
+
+.wrapper form .field input[type="submit"]{
+    color: #fff;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding-left: none;
+    cursor: pointer;
+}
+
+.wrapper form .field input[type="submit"]:active{
+    transform: scale(0.95);
 }
 
 
